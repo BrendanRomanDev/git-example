@@ -1,0 +1,47 @@
+body {
+	background: blueviolet;
+	margin: 0;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.bg1 {
+	background: url("./fishing.jpg") no-repeat fixed;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+.bg2 {
+	background: url("./fishing2.jpg") no-repeat fixed;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+}
+
+#footer {
+	background: url("./footer.png") repeat fixed;
+	height: 100px;
+	width: 100%;
+}
+
+#footer > p {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* Modify the backgorund color */
+.navbar-custom {
+	background-color: lightgreen;
+}
+
+.my-form-card {
+	max-width: 400px;
+}
+
+.test-column {
+	margin: 0 auto;
+}
